@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    >
+
+    <com.kris.record.SoundView
+        android:id="@+id/sv_sound"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#fff"/>
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#ff9933"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="record"/>
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#99ff33"
+        android:text="stop"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        />
+</RelativeLayout>
